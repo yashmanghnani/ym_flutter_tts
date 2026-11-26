@@ -1,3 +1,7 @@
+## 4.2.7
+
+* Upgrade Android Gradle Plugin to 9.1.1.
+
 ## 4.2.6
 
 * Update Gradle wrappers to 9.3.1.
