@@ -11,7 +11,7 @@ import 'interop_types.dart';
 enum TtsState { playing, stopped, paused, continued }
 
 class FlutterTtsPlugin {
-  static const String platformChannel = "flutter_tts";
+  static const String platformChannel = "ym_flutter_tts";
   static late MethodChannel channel;
   bool awaitSpeakCompletion = false;
 
@@ -173,7 +173,7 @@ class FlutterTtsPlugin {
       default:
         throw PlatformException(
             code: 'Unimplemented',
-            details: "The flutter_tts plugin for web doesn't implement "
+            details: "The ym_flutter_tts plugin for web doesn't implement "
                 "the method '${call.method}'");
     }
   }

@@ -3,7 +3,7 @@ import 'dart:io' show Platform;
 import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tts/flutter_tts.dart';
+import 'package:ym_flutter_tts/ym_flutter_tts.dart';
 
 import 'language_helper.dart'; // Import the facade
 

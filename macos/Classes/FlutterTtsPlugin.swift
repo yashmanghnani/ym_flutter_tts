@@ -33,7 +33,7 @@ public class FlutterTtsPlugin: NSObject, FlutterPlugin, AVSpeechSynthesizerDeleg
   }
 
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_tts", binaryMessenger: registrar.messenger)
+    let channel = FlutterMethodChannel(name: "ym_flutter_tts", binaryMessenger: registrar.messenger)
     let instance = FlutterTtsPlugin(channel: channel)
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

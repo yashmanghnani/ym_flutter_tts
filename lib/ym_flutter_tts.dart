@@ -327,7 +327,7 @@ class SpeechRateValidRange {
 
 // Provides Platform specific TTS services (Android: TextToSpeech, IOS: AVSpeechSynthesizer)
 class FlutterTts {
-  static const MethodChannel _channel = MethodChannel('flutter_tts');
+  static const MethodChannel _channel = MethodChannel('ym_flutter_tts');
 
   VoidCallback? startHandler;
   VoidCallback? completionHandler;

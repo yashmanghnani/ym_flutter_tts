@@ -1,4 +1,4 @@
-package com.eyedeadevelopment.fluttertts
+package com.yashmanghnani.ymfluttertts
 
 import android.content.ContentValues
 import android.content.Context
@@ -67,7 +67,7 @@ class FlutterTtsPlugin : MethodCallHandler, FlutterPlugin {
 
     private fun initInstance(messenger: BinaryMessenger, context: Context) {
         this.context = context
-        methodChannel = MethodChannel(messenger, "flutter_tts")
+        methodChannel = MethodChannel(messenger, "ym_flutter_tts")
         methodChannel!!.setMethodCallHandler(this)
         handler = Handler(Looper.getMainLooper())
         bundle = Bundle()

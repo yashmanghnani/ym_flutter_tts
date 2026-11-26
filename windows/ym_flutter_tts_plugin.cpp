@@ -1,4 +1,4 @@
-#include "include/flutter_tts/flutter_tts_plugin.h"
+#include "include/ym_flutter_tts/ym_flutter_tts_plugin.h"
 // This must be included before many other Windows headers.
 #include <windows.h>
 #include <ppltasks.h>
@@ -63,7 +63,7 @@ namespace {
 		flutter::PluginRegistrarWindows* registrar) {
 		methodChannel =
 			std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
-				registrar->messenger(), "flutter_tts",
+				registrar->messenger(), "ym_flutter_tts",
 				&flutter::StandardMethodCodec::GetInstance());
 		auto plugin = std::make_unique<FlutterTtsPlugin>();
 
@@ -282,7 +282,7 @@ namespace {
 		flutter::PluginRegistrarWindows* registrar) {
 		methodChannel =
 			std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
-				registrar->messenger(), "flutter_tts",
+				registrar->messenger(), "ym_flutter_tts",
 				&flutter::StandardMethodCodec::GetInstance());
 		auto plugin = std::make_unique<FlutterTtsPlugin>();
 		methodChannel->SetMethodCallHandler(

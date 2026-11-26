@@ -14,12 +14,12 @@ if (localPropertiesFile.exists()) {
 
 android {
     compileSdk 35
-    namespace 'com.eyedeadevelopment.example'
+    namespace 'com.yashmanghnani.example'
 
 
     defaultConfig {
-        applicationId "com.eyedeadevelopment.flutterttsexample"
-        minSdkVersion 23
+        applicationId "com.yashmanghnani.ymflutterttsexample"
+        minSdkVersion flutter.minSdkVersion
         targetSdkVersion 35
         versionCode 1
         versionName "1.0"
