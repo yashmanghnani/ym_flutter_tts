@@ -1,3 +1,7 @@
+## 4.2.6
+
+* Update Gradle wrappers to 9.3.1.
+
 # ChangeLog
 
 ## 4.2.5
